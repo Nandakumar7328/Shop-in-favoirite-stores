@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    
+}
+.bg-color{
+    background-color: #894bca;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+   
+    
+}
+.top-first-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image-resize{
+    width: 500px;
+    height: 300px;
+}
+.main-heading{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 66px;
+    padding-left: 20px;
+}
+.sub-container{
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    list-style-type: none;
+
+}
+.card-container{
+    color: #f780c3;
+    font-family: "Bree Serif";
+}
+.li-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.card-li-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+}
